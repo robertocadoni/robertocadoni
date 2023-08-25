@@ -1,0 +1,48 @@
+aiFriend: Versione 4.2BETA
+#NOTE: Possiede parametri in e funzioni out. Basata su aiFriend 2.0.
+#NOTE: Ricordati di inserire la tua chiave OpenAI sostituendo su OPENAI_API_KEY = 'YOUR_KEY_HERE' nei file main.py e controllo.py.
+
+aiFriend è un'applicazione di assistenza vocale che interagisce con l'utente attraverso il riconoscimento vocale, risponde a domande, esegue azioni specifiche e offre un'esperienza personalizzata. La versione attuale è la 4.2BETA.
+
+1. Panoramica
+aiFriend è progettato per fornire assistenza all'utente tramite l'interpretazione del discorso, l'interazione con OpenAI, e la riproduzione vocale delle risposte. Può eseguire azioni predefinite e utilizzare parametri specifici per migliorare l'interazione.
+
+2. Struttura dell'Applicazione
+2.1 main.py
+Il file principale che gestisce la conversazione, interagisce con OpenAI, e riproduce il testo in voce.
+
+2.2 speech_processing.py
+Responsabile del riconoscimento vocale e della conversione dell'audio in testo.
+
+2.3 azioni.py
+Definisce le azioni che l'applicazione può eseguire, come chiudere l'applicazione.
+
+2.4 controllo.py
+Contiene la classe Controllo per verificare le azioni dell'utente.
+
+2.5 parametri.py
+Contiene parametri per personalizzare l'esperienza, come il nome dell'interlocutore e la posizione geografica.
+
+3. Funzionalità
+Riconoscimento vocale: Interpretazione del discorso dell'utente.
+Risposte Intelligenti: Risponde a domande e richieste specifiche.
+Azioni Predefinite: Esegue azioni come chiudere l'applicazione.
+Personalizzazione: Utilizza parametri specifici per migliorare l'interazione.
+4. Guida all'Uso
+4.1 Installazione
+Installare tutte le dipendenze necessarie come OpenAI, speech_recognition, pygame, ecc.
+
+4.2 Esecuzione
+Eseguire il file main.py per avviare l'applicazione.
+
+4.3 Interazione
+Parlare con l'assistente e attendere la risposta.
+
+4.4 Personalizzazione
+Modificare i parametri in parametri.py per personalizzare l'esperienza.
+
+5. Problemi Noti e Considerazioni Future
+Ulteriori test e ottimizzazioni potrebbero essere necessari.
+L'implementazione di più azioni e integrazioni potrebbe arricchire le capacità.
+6. Conclusione
+aiFriend offre una solida base per l'interazione vocale e l'assistenza personalizzata. La versione 4.2BETA rappresenta un passo avanti verso un assistente vocale completo e versatile. È un eccitante punto di partenza per ulteriori sviluppi e innovazioni.
